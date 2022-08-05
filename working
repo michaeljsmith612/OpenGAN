@@ -1,0 +1,5 @@
+git clone https://github.com/michaeljsmith612/rebel.git
+conda create --name ogn python=3.7
+conda activate ogn
+conda install pytorch==1.4.0 torchvision==0.5.0 cudatoolkit=10.1 -c pytorch
+
